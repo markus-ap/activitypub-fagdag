@@ -1,0 +1,32 @@
+[
+    {
+        "@id": "http://127.0.0.1:5000/@markus",
+        "id": "markus",
+        "type": "Person",
+        "preferredUsername": "markus",
+        "inbox": "http://127.0.0.1:5000/user/markus/inbox",
+        "outbox": "http://127.0.0.1:5000/user/markus/outbox",
+        "followers": "http://127.0.0.1:5000/user/markus/followers",
+        "following": "http://127.0.0.1:5000/user/markus/following",
+        "name": "Markus",
+        "summary": "I'm a software developer",
+        "@context": [
+            "https://www.w3.org/ns/activitystreams",
+            "https://w3id.org/security/v1",
+            {
+                "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+                "schema": "http://schema.org#",
+                "PropertyValue": "schema:PropertyValue",
+                "value": "schema:value",
+                "alsoKnownAs": {
+                    "@id": "as:alsoKnownAs",
+                    "@type": "@id"
+                },
+                "movedTo": {
+                    "@id": "as:movedTo",
+                    "@type": "@id"
+                }
+            }
+        ]
+    }
+]
